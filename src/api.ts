@@ -1,6 +1,6 @@
 import openSocket from "socket.io-client";
 import { User } from "./components/App";
-const socket = openSocket("http://localhost:8000");
+const socket = openSocket("https://find-my-mine-server.herokuapp.com");
 
 type Callback<T = any> = (err: any, result: T) => void;
 
